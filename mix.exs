@@ -22,8 +22,11 @@ defmodule Twituser.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:ecto_sql, "~> 3.0"},
+      {:gen_stage, "~> 0.12"},
+      {:postgrex, ">= 0.0.0"},
+      {:twittex, "~> 0.3"},
+      {:timex, "~> 3.1"}
     ]
   end
 end
